@@ -500,8 +500,8 @@ int main()
 }
 ```
                    or                          
-*/
-/* //swap two variables without third variable using XOR.
+26.Program to swap two variables without third variable using XOR.
+```c
 #include<stdio.h>
 int main()
 {
@@ -513,8 +513,9 @@ int main()
     printf("After Swapping: a=%d,y=%d\n",a,y);
     return 0;
 }
-*/
-/* //Binary to Decimal
+```
+27.program to convert a Binary to Decimal.
+```c
 #include<stdio.h>
 #include<string.h>
 int binarytodecimal(const char *binary)
@@ -540,8 +541,9 @@ int main()
     printf("Decimal equivalent: %d\n",binarytodecimal(binary));
     return 0;
 }
-*/
-/*
+```
+28.program to swap an even and odd bits.
+```c
 #include<stdio.h>
 unsigned int swapevenoddbits(unsigned int num)
 {
@@ -561,7 +563,9 @@ int main()
     printf("Swapped number: %u\n",result);
     return 0;
 }
-*/
+```
+29.Program to count leading zeros and trailing zeros in a bit.
+```c
 #include<stdio.h>
 int countleadingzeros(unsigned int num)
 {
@@ -597,3 +601,4 @@ int main()
     printf("tariling zeroes: %d",counttrailingzeros(num));
     return 0;
 }
+```
