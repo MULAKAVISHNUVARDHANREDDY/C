@@ -16,7 +16,7 @@ int main()
     return 0;
 }
 ```
-2.Program to swap usinf xor operator.
+2.Program to swap using xor operator.
 ```c
 #include<stdio.h>
 void swap(int *a,int *b)
